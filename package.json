@@ -1,0 +1,34 @@
+{
+  "name": "greyscaler",
+  "version": "0.0.1",
+  "description": "Takes an image and greyscales it.",
+  "main": "greyscaler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MauriceButler/greyscaler.git"
+  },
+  "keywords": [
+    "grey",
+    "scale",
+    "greyscale",
+    "png",
+    "bump",
+    "bumpmap"
+  ],
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/greyscaler/issues"
+  },
+  "dependencies": {
+    "commander": "~2.0.0",
+    "pngjs": "~0.4.0",
+    "async": "~0.2.9"
+  },
+  "bin": {
+    "greyscaler": "./index.js"
+  }
+}
