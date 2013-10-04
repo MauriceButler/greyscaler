@@ -17,7 +17,6 @@ module.exports = function(imagePath, outputPath, callback){
                     this.data[index] = this.data[index+1] = this.data[index+2] = value;
                 }
             }
-            debugger;
             this.pack().pipe(fs.createWriteStream(path.join(outputPath, path.basename(imagePath, '.png') + '.greyscale.png'))
                 .on('finish', callback));
         }
