@@ -1,6 +1,6 @@
 {
   "name": "greyscaler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Takes an image and greyscales it.",
   "main": "greyscaler.js",
   "scripts": {
